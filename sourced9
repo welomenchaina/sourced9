@@ -1,0 +1,6 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+-- some error will not replicate use a alt to check how many of them sent to the server
+
+--[[ANIMATION FAILER made by water_hax]]for k=math.random(1,70000),math.random(70000,70000000) do task.wait(1)h=game.Players.LocalPlayer.Character.Humanoid;anim=Instance.new("Animation")anim.AnimationId="rbxassetid://" .. k;t=h:LoadAnimation(anim):Play() end
